@@ -17,4 +17,5 @@ Conatiners:
 - read and write access
 - data is lost on shutdown
 
-![containers and images](https://user-images.githubusercontent.com/73353537/196524881-3fbddac8-96f5-4716-b1c9-69ea653cbd8f.jpg)
+
+![1_rCo_Q1-f7V5zYoKAQed_Mw](https://user-images.githubusercontent.com/73353537/196525768-e9e4d6bb-28fa-4872-b095-ac0e081424f9.png)
