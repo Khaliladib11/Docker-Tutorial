@@ -24,6 +24,7 @@ Moreover, with containers we don't have to uninstall and re-install local depede
 
 ```python
 ├─Foundation  # to learn the fundamentals of Docker and Containers
-├─Real Life Problems  # to see how it works in real life
+├─Multi-Container Application  # to see how it works in real life
+├─Docker Compose  # To manage multiple containers
 ├─Kubernetes  # Learn Kubernetes for more complex scenarios
 ```
