@@ -1,4 +1,7 @@
 ﻿# Docker-Tutorial
+ 
+![reduce_docker_image_size_by_45](https://user-images.githubusercontent.com/73353537/196525351-4d791e8e-e922-4e5f-a16b-27c6fd1c1247.jpg)
+
 
 This repository is to archive my Docker learning journey from [this udemy course](https://www.udemy.com/course/docker-kubernetes-the-practical-guide).
 
