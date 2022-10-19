@@ -23,7 +23,7 @@ Moreover, with containers we don't have to uninstall and re-install local depede
 ## Repository Structure
 
 The repositpry structure is as follows:
-- [Foundation](./Foundation)
-- [Multi-Container Application](https://github.com/Khaliladib11/Docker-Tutorial/tree/main/Multi-Container%20Application)
-- [Docker Compose](https://github.com/Khaliladib11/Docker-Tutorial/tree/main/Docker%20Compose)
-- [Kubernetes](./Kubernetes)
+- [Foundation](./1-Foundation)
+- [Multi-Container Application](./2-Multi-Container%20Application)
+- [Docker Compose](./3-Docker%20Compose)
+- [Kubernetes](./4-Kubernetes)
