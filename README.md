@@ -22,9 +22,8 @@ Moreover, with containers we don't have to uninstall and re-install local depede
 
 ## Repository Structure
 
-```python
-├─Foundation  # to learn the fundamentals of Docker and Containers
-├─Multi-Container Application  # to see how it works in real life
-├─Docker Compose  # To manage multiple containers
-├─Kubernetes  # Learn Kubernetes for more complex scenarios
-```
+The repositpry structure is as follows:
+- [Foundation](./Foundation)
+- [Multi-Container Application](https://github.com/Khaliladib11/Docker-Tutorial/tree/main/Multi-Container%20Application)
+- [Docker Compose](https://github.com/Khaliladib11/Docker-Tutorial/tree/main/Docker%20Compose)
+- [Kubernetes](./Kubernetes)
