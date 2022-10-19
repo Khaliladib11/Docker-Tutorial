@@ -61,7 +61,7 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # Expose the port of the app, just for documentation
-EXPORT 80
+EXPOSE 80
 
 # the command we must run when running the container, in this case a flask app
 CMD ["python", "flask", "run", "--host=0.0.0.0"]
