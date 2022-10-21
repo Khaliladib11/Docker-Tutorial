@@ -7,7 +7,7 @@ This repository is to archive my Docker learning journey from [this udemy course
 
 ## Goal
 
-- To familiarize my self with Docker concepts and basics.
+- To familiarize myself with Docker concepts and basics.
 - To use it after as a refrence when working with Docker after.
 
 ## Basics
@@ -19,6 +19,12 @@ A container is a standarized unit of sofwtare that packages all the code and dep
 As a result, we will have the exact envirement for developement and production, also it will become easier to share a comman developement environment.
 
 Moreover, with containers we don't have to uninstall and re-install local depedencies and runtimes all the time.
+
+Docker offers many advantages for developer and DevOps teams:
+- offers isolations for applications.
+- simplifies the configurations.
+- supports many CI tools such as Jenkins.
+- simplifies doployements
 
 ## Repository Structure
 
