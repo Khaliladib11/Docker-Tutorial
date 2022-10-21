@@ -12,12 +12,11 @@ Let's say we want to build a web application that uses React library as frontent
 In order to do that, we shoudl create a **Network** for the containers to make them communicate. In this case, the frontend can send requests to the backend, and the backend can read and write from the database.
 
 There are different types network bridges used in Docker:
-- bridge (default)
-- host
-- overlay
-- ipvlan
-- macvlan
-- none
+- [bridge](https://docs.docker.com/network/bridge/) (default)
+- [host](https://docs.docker.com/network/host/)
+- [overlay](https://docs.docker.com/network/overlay/)
+- [ipvlan](https://docs.docker.com/network/ipvlan/)
+- [macvlan](https://docs.docker.com/network/macvlan/)
 
 more about docker networking at [Docker Networking overview](https://docs.docker.com/network/).
 
@@ -33,6 +32,8 @@ docker run -d --rm --name [CONTAINER NAME] --network [NETWORK NAME] [IMAGE NAME]
 ```
 
 Now if we run two containers, one that has database running and the other is a backend. In the backend when we want to connect the db, we replace the url with the name of the database container.
+
+For instance if the we replace `mongodb://127.0.0.1:27017/dbname` with `mongodb://mongodb:27017/dbname` to connect to a mongodb database called `dbname`.
 
 To list all networks:
 ```
