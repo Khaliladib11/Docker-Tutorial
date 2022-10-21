@@ -8,7 +8,7 @@ This repository is to archive my Docker learning journey from [this udemy course
 ## Goal
 
 - To familiarize myself with Docker concepts and basics.
-- To use it after as a refrence when working with Docker after.
+- To use it after as a refrence when working with Docker later.
 
 ## Basics
 
