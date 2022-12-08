@@ -127,6 +127,10 @@ To delete a container:
 docker rm [CONTAINER NAME]
 ```
 
+If you are running your container in deattached mode and you want to check the logs, simply run:
+```bash
+docker logs [CONTAINER NAME]
+```
 ## Managing Data in Containers
 
 
