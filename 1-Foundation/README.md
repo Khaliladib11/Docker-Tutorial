@@ -181,6 +181,10 @@ Like named volumes however they are managed by the user. You must defined an  ab
 ```bash
 docker run -p [HOST'S PORT]:[CONTAINER'S PORT] -it --rm --name [NAME OF THE CONTAINER] -v "[ABSOLUTE/PATH/TO/THE/HOST]:[PATH/TO/VOLUME/IN/CONTAINER]" [NAME OF THE IMAGE]
 ```
+or you can use `$(PWD)` instead of the absolute path on Linux. `${PWD}` on windows powershell and `%cd%` on windows cmd. example:
+```bash
+docker run -p [HOST'S PORT]:[CONTAINER'S PORT] -it --rm --name [NAME OF THE CONTAINER] -v "${PWD}:[PATH/TO/VOLUME/IN/CONTAINER]" [NAME OF THE IMAGE]
+```
 
 to use read-only bind mounts add `:ro`:
 ```bash
